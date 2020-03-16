@@ -20,7 +20,7 @@ class Home extends React.Component {
                     originalList: res.data
                 })
                 console.log('STATE: ', this.state)
-                console.log('DATA FETCHED! ', res.data)
+                console.log('MY GITHUB FOLLOWERS FETCHED! ', res.data)
             })
             .catch(err => console.log(err))
 
